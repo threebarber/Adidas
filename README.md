@@ -1,0 +1,2 @@
+# Adidas
+adi account gen

@@ -27,10 +27,10 @@ while int(base) < int(number_of_accounts):
     with requests.Session() as c:
 
 
-        fullName             = names.get_full_name()
+        fullName          = names.get_full_name()
 
-        requesturl          = 'https://cp.adidas.com/web/eCom/en_US/accountcreate'
-        regpage             = 'https://www.adidas.com/us/myaccount-register'
+        requesturl        = 'https://cp.adidas.com/web/eCom/en_US/accountcreate'
+        regpage           = 'https://www.adidas.com/us/myaccount-register'
 
         FIRSTNAME         = fullName.split()[0]
         LASTNAME          = fullName.split()[1]

@@ -1,4 +1,3 @@
-#all code by threebones except for modules obviously
 import time
 import random
 import string

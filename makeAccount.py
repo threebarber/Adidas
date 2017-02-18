@@ -22,7 +22,7 @@ delay = raw_input("[+]Enter how long to pause (IE 5): ")
 
 base = 0
 
-while int(base) <= int(number_of_accounts):
+while int(base) < int(number_of_accounts):
     base += 1
     time.sleep(int(delay))
     with requests.Session() as c:

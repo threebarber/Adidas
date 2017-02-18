@@ -3,7 +3,6 @@ import random
 import string
 import names
 import os
-import subprocess
 import requests
 from bs4 import BeautifulSoup
 import sys
